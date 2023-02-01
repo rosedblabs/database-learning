@@ -1,3 +1,7 @@
+PDF 及数据库相关书籍，可在我公众号领取，关注后回复关键字“**数据库**”
+
+![Snipaste_2023-02-01_09-58-05.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675216713682-a3cab6f7-93ca-4699-999d-223ba77cbc97.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+
 # 数据库/存储学习路径推荐
 
 我自己就是从业务自学转入数据库内核研发岗位的，根据自己的经历，简单总结了一下入门数据库相关的学习路线、学习资料、项目书籍推荐等，大家可以参考。<br />
@@ -26,6 +30,7 @@ CMU-15445 和 CMU-15721<br />
 
 这里推荐下我的两个项目：
 > [https://github.com/flower-corp/rosedb](https://github.com/flower-corp/rosedb)
+>
 > [https://github.com/flower-corp/lotusdb](https://github.com/flower-corp/lotusdb)
 
 
@@ -62,7 +67,7 @@ CMU-15445 和 CMU-15721<br />
 
 ---
 
-为了帮助你更高效的学习，我还整理了一份数据库开发的学习资料，数据库的各个方面都涉及到了，例如 SQL、优化器、执行引擎、存储等等，包含一些优质的书籍、论文、视频课程、博客等，还有一些优质的教学类项目。<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1673770833130-d80eaccc-6fce-4e23-bdc5-5b00d1bb384f.png#averageHue=%23ececec&clientId=ufa50e856-2120-4&from=paste&height=746&id=ua30dabf1&name=image.png&originHeight=1492&originWidth=1700&originalType=binary&ratio=1&rotation=0&showTitle=false&size=296215&status=done&style=none&taskId=u7b00b1aa-bd87-48b7-934f-e9ca536db81&title=&width=850)<br />总计十几页的 PDF，一次性送给你，方便提升学习效率。<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1673770714528-fc5cd43d-54c6-4c7f-8c8a-b0e8106fdf3e.png#averageHue=%23f7f7f7&clientId=ufa50e856-2120-4&from=paste&height=615&id=uf81c3cca&name=image.png&originHeight=1230&originWidth=1294&originalType=binary&ratio=1&rotation=0&showTitle=false&size=321082&status=done&style=none&taskId=uca8d9770-71df-4791-9af6-a3cdad4d763&title=&width=647)<br />还有一些关于数据库方面的优质 PDF 书籍，可以参考学习：<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675175402743-f5987338-d67e-4c0d-a574-9c1a7f743ca0.png#averageHue=%23dbd8cf&clientId=u6861054c-f8dc-4&from=paste&height=451&id=u4b53b520&name=image.png&originHeight=902&originWidth=1682&originalType=binary&ratio=1&rotation=0&showTitle=false&size=897755&status=done&style=none&taskId=u6b44cf46-3c87-4c40-be5f-d7d56162dc1&title=&width=841)<br />这份学习资料 PDF 和所有的书籍都可以在我的公众号领取，后台回复关键字**【数据库】**。
+为了帮助你更高效的学习，我还整理了一份数据库开发的学习资料，数据库的各个方面都涉及到了，例如 SQL、优化器、执行引擎、存储等等，包含一些优质的书籍、论文、视频课程、博客等，还有一些优质的教学类项目。<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1673770833130-d80eaccc-6fce-4e23-bdc5-5b00d1bb384f.png#averageHue=%23ececec&clientId=ufa50e856-2120-4&from=paste&height=746&id=ua30dabf1&name=image.png&originHeight=1492&originWidth=1700&originalType=binary&ratio=1&rotation=0&showTitle=false&size=296215&status=done&style=none&taskId=u7b00b1aa-bd87-48b7-934f-e9ca536db81&title=&width=850)<br />总计十几页的 PDF，一次性送给你，方便提升学习效率。<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1673770714528-fc5cd43d-54c6-4c7f-8c8a-b0e8106fdf3e.png#averageHue=%23f7f7f7&clientId=ufa50e856-2120-4&from=paste&height=615&id=uf81c3cca&name=image.png&originHeight=1230&originWidth=1294&originalType=binary&ratio=1&rotation=0&showTitle=false&size=321082&status=done&style=none&taskId=uca8d9770-71df-4791-9af6-a3cdad4d763&title=&width=647)<br />还有一些关于数据库方面的优质 PDF 书籍，可以参考学习：<br />![image.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675175402743-f5987338-d67e-4c0d-a574-9c1a7f743ca0.png#averageHue=%23dbd8cf&clientId=u6861054c-f8dc-4&from=paste&height=451&id=u4b53b520&name=image.png&originHeight=902&originWidth=1682&originalType=binary&ratio=1&rotation=0&showTitle=false&size=897755&status=done&style=none&taskId=u6b44cf46-3c87-4c40-be5f-d7d56162dc1&title=&width=841)<br />这份学习资料 PDF 和所有的书籍都可以在我的公众号领取，后台回复关键字【数据库】。
 
 ![Snipaste_2023-02-01_09-58-05.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675216713682-a3cab6f7-93ca-4699-999d-223ba77cbc97.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
 
