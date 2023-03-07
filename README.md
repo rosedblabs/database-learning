@@ -1,3 +1,11 @@
+## 《从零实现 KV 存储》课程已上线！
+
+使用 Rust 和 Go 构建一个完整的，支持 Redis 协议的 KV 存储引擎，硬核项目实战！
+
+课程详情：[使用 Rust 和 Go 从零实现 KV 存储](https://w02agegxg3.feishu.cn/docx/Ktp3dBGl9oHdbOxbjUWcGdSnn3g)
+
+***
+
 **学习资料 PDF 及数据库相关书籍，可在我公众号领取**，关注后回复关键字“**数据库**”
 
 ![Snipaste_2023-02-01_09-58-05.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675216713682-a3cab6f7-93ca-4699-999d-223ba77cbc97.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
