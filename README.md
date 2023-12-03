@@ -14,7 +14,7 @@
 
 ***
 
-**学习资料 PDF 及数据库相关书籍，可在我公众号领取**，关注后回复关键字“**数据库**”
+**下文中提到的学习资料 PDF 及数据库相关书籍，可在我公众号领取**，关注后回复关键字“**数据库**”
 
 ![Snipaste_2023-02-01_09-58-05.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675216713682-a3cab6f7-93ca-4699-999d-223ba77cbc97.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
 
@@ -22,7 +22,7 @@
 
 # 数据库/存储学习路径推荐
 
-我自己就是从业务自学转入数据库内核研发岗位的，根据自己的经历，简单总结了一下入门数据库相关的学习路线、学习资料、项目书籍推荐等，大家可以参考。
+我自己就是从业务开发，自学转入分布式存储，然后转入到数据库内核研发岗位的，根据自己的经历，简单总结了一下入门数据库相关的学习路线、学习资料、项目书籍推荐等，大家可以参考。
 
 ## 必看课程
 
@@ -50,10 +50,14 @@ CMU-15445 和 CMU-15721
 
 
 
-这里推荐下我的两个项目：
-> [https://github.com/flower-corp/rosedb](https://github.com/flower-corp/rosedb)
+这里推荐下我的两个项目，可以参考学习：
+> https://github.com/rosedblabs/rosedb
 >
-> [https://github.com/flower-corp/lotusdb](https://github.com/flower-corp/lotusdb)
+> [https://github.com/lotusdblabs/lotusdb](https://github.com/lotusdblabs/lotusdb)
+
+以及强烈推荐我写的手把手教学项目《从零实现 KV 存储》，从第一行代码开始，手写一个兼容 Redis 协议的 KV 数据库，详情可以看着这里：
+
+https://w02agegxg3.feishu.cn/docx/Ktp3dBGl9oHdbOxbjUWcGdSnn3g
 
 ## 事务/MVCC
 
@@ -77,11 +81,17 @@ CMU-15445 和 CMU-15721
 
 https://www.youtube.com/@6.824/videos
 
-有精力的话可以跟着把实验部分做完。
+有精力的话可以跟着把实验部分做完，实验是实现一个基于 raft 的分布式 KV 系统，涉及到手写 raft 和分布式 KV，对理解分布式系统的理论和实践有非常大的帮助。
 
 
 
-然后可以挑战下 PingCAP 的 talent plan 中的 TinyKV，它和 6824 的实验部分比较类似，实现一个基于 raft 的分布式 KV 存储系统，难度比较大，但是代码框架已经搭好了，只需要往里面添加内容即可，测试也比较完备。
+我也基于 6824 的 Lab 做了一个手把手教学的《从零实现分布式 KV》课程，感兴趣的可以查看这里：
+
+https://av6huf2e1k.feishu.cn/docx/JCssdlgF4oRADcxxLqncPpRCn5b
+
+
+
+然后可以挑战下 PingCAP 的 talent plan 中的 TinyKV，它和 6824 的实验部分比较类似，但是更难一些，也是实现一个基于 raft 的分布式 KV 存储系统，代码框架已经搭好了，只需要往里面添加内容即可，测试也比较完备。
 
 https://github.com/talent-plan/tinykv
 
