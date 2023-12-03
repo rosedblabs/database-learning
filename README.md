@@ -6,6 +6,14 @@
 
 ***
 
+## 《从零实现分布式 KV》课程已上线！
+
+手写 raft + 分布式 KV 系统，硬核实战教程，深入理解分布式理论和实践必备！
+
+课程详情：[从零实现分布式 KV](https://av6huf2e1k.feishu.cn/docx/JCssdlgF4oRADcxxLqncPpRCn5b)
+
+***
+
 **学习资料 PDF 及数据库相关书籍，可在我公众号领取**，关注后回复关键字“**数据库**”
 
 ![Snipaste_2023-02-01_09-58-05.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675216713682-a3cab6f7-93ca-4699-999d-223ba77cbc97.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
