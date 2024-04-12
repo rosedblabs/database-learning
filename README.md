@@ -26,15 +26,19 @@
 ## 必看课程
 CMU-15445 和 CMU-15721
 [https://www.youtube.com/@CMUDatabaseGroup](https://www.youtube.com/@CMUDatabaseGroup)
+
 这两个不用多说，经典的数据库入门教程，由数据库的大佬 Andy Pavlo 亲自授课。可以了解到数据库的基本概念，例如存储、BufferPool 缓冲池、索引、优化器、执行器、事务等。
 
 15445 的实验部分是基于其开源的教学项目 [bustub](https://github.com/cmu-db/bustub)，补全其中几个重要的部分，这个项目是 C++ 写的，如果对 C++ 不熟悉的话，那么我觉得实验部分可以暂时跳过，有多余的精力再来搞，毕竟我们是来学数据库的，而不是学 C++ 的。
 ## 存储项目实践
 学习数据库课程的同时，顺便可以了解下存储方面的内容，存储是数据库必不可缺的重要组成部分。
+
 例如 B+ 树、bitcask、LSM Tree，以及 LSM Tree 的优化 Wisckey，找几篇文章看看，了解下基本概念，或者直接看看对应的最权威的论文。
 
 然后自己去实践写一个，例如写一个简单的 bitcask、B+ 树存储引擎，或者 LSM 存储引擎。
+
 在我的经验看来，这几类存储引擎，实现的难度大致是 B+树 >= LSM > bitcask，bitcask 可以看做是一个简化版的 LSM Tree。
+
 对于 B+ 树，学习的资料有
 
 - [BoltDB](https://github.com/etcd-io/bbolt)，Go 语言写的一个 B+ 树单机存储引擎，在生产环境中广泛应用
@@ -52,12 +56,15 @@ bitcask 可参考资料：
 - [mini-bitcask](https://github.com/rosedblabs/mini-bitcask)，一个极简的 bitcask 教程
 
 之所以推荐写存储类的小项目，主要是因为存储层的 KV 一般比较好实现，同时又能够了解到一些数据库的基本设计理念。
+
 **强烈推荐👍🏻**
 如果想要一个完整实现 KV 存储的代码实践教程，可以参考我的[《从零实现 KV 存储》](https://w02agegxg3.feishu.cn/docx/Ktp3dBGl9oHdbOxbjUWcGdSnn3g)的教程，从第一行代码开始的视频实战教程，使用 Go 和 Rust 两种语言分别实现。
+
 ## 事务/MVCC
 这部分网上的资料比较多，可以看看事务的一些基本概念 ACID，然后看看如何去实现的，可以借鉴其他数据库例如 MySQL、PostgreSQL，关于事务实现原理分析这方面的文章比较多。
 
 概念了解差不多之后，可以自己动手实现，例如可以在自己写的存储项目的基础上，加上事务的功能，保证事务原子性、隔离性，以及并发读写的性能，自己上手撸肯定比只了解理论好很多。
+
 CMU 15445 和 15721 课程都讲到了事务的一些基本概念，可以参考 [https://15445.courses.cs.cmu.edu/fall2019/schedule.html#oct-23-2019](https://15445.courses.cs.cmu.edu/fall2019/schedule.html#oct-23-2019)
 
 其他的一些部分，例如 parser、执行器、优化器、向量化等等，比较复杂，自己从头搞一个的难度比较大，我觉得可以简单看看资料，了解一下基本概念，工作之中再针对性的查漏补缺。
@@ -74,16 +81,22 @@ CMU 15445 和 15721 课程都讲到了事务的一些基本概念，可以参考
 ## 分布式
 这部分内容首推 MIT 6824（现已改名为 6.5840），分布式系统入门的首选课程。
 [https://www.youtube.com/@6.824/videos](https://www.youtube.com/@6.824/videos)
+
 有精力的话可以跟着把实验部分做完。lab 是实现一个除成员变更之外的 raft 共识算法，并且基于 raft 实现一个容错的分布式 KV 系统。
+
 **强烈推荐👍🏻**
 如果对课程内容并不熟悉的话，初次上手做 lab 可能会比较痛苦，并且自己搞也可能会比较浪费时间。
+
 可以看看我的[《从零实现分布式 KV》](https://av6huf2e1k.feishu.cn/docx/JCssdlgF4oRADcxxLqncPpRCn5b)教程，从零开始，基于 6824 的 lab，写一个基于 raft 的分布式 KV，教程内容完全涵盖了 6824 的 lab 部分。
 
 这个学完了之后，可以挑战下 PingCAP 的 talent plan 中的 TinyKV，它和 6824 的实验部分比较类似，实现一个基于 raft 的分布式 KV 存储系统，难度会比 6824 更大，lab 的代码框架是现成的，只需要往里面添加内容即可，测试也比较完备。
 [https://github.com/talent-plan/tinykv](https://github.com/talent-plan/tinykv)
 
+
+
 如果还有时间的话，可以再上一个台阶，挑战下 PingCAP talent plan 的 TinySQL 项目，主要是实现一个简单的分布式数据库项目，有完备的文字教程，只是难度略大。
 [https://github.com/talent-plan/tinysql](https://github.com/talent-plan/tinysql)
+
 ## 工作或者实习
 当然，其实最好的办法，还是能够直接参与到工作实践当中，这样学习起来是最快的，可以向 leader 请教，和同事交流等。
 
