@@ -23,13 +23,21 @@
 # 数据库/存储学习路径推荐
 
 我自己就是从业务自学转入数据库内核研发岗位的，根据自己的经历，简单总结了一下入门数据库/存储相关的学习路线、学习资料、项目书籍推荐等，大家可以参考。
+
+并且需要强调的是，这些内容其实并不只是为了想要转入数据库/存储方向的同学。
+
+就算是业务后端开发，以及云原生等方向，数据库、分布式都是必备的基础内容，并且存储也能够学习到很多的一些操作系统基础知识，所以我觉得都是有必要去进行学习的。
+
 ## 必看课程
 CMU-15445 和 CMU-15721
 [https://www.youtube.com/@CMUDatabaseGroup](https://www.youtube.com/@CMUDatabaseGroup)
 
-这两个不用多说，经典的数据库入门教程，由数据库的大佬 Andy Pavlo 亲自授课。可以了解到数据库的基本概念，例如存储、BufferPool 缓冲池、索引、优化器、执行器、事务等。
+这两个不用多说，经典的数据库入门教程，由数据库的大佬 Andy Pavlo 亲自授课。
+
+可以了解到数据库的基本概念，例如存储、BufferPool 缓冲池、索引、优化器、执行器、事务等。
 
 15445 的实验部分是基于其开源的教学项目 [bustub](https://github.com/cmu-db/bustub)，补全其中几个重要的部分，这个项目是 C++ 写的，如果对 C++ 不熟悉的话，那么我觉得实验部分可以暂时跳过，有多余的精力再来搞，毕竟我们是来学数据库的，而不是学 C++ 的。
+
 ## 存储项目实践
 学习数据库课程的同时，顺便可以了解下存储方面的内容，存储是数据库必不可缺的重要组成部分。
 
@@ -55,7 +63,7 @@ bitcask 可参考资料：
 - [rosedb](https://github.com/rosedblabs/rosedb)，基于 bitcask 的单机 KV 引擎
 - [mini-bitcask](https://github.com/rosedblabs/mini-bitcask)，一个极简的 bitcask 教程
 
-之所以推荐写存储类的小项目，主要是因为存储层的 KV 一般比较好实现，同时又能够了解到一些数据库的基本设计理念。
+之所以推荐写存储类的实战项目，主要是因为存储层的 KV 一般比较好实现，同时又能够了解到一些数据库的基本设计理念。
 
 **强烈推荐👍🏻**
 如果想要一个完整实现 KV 存储的代码实践教程，可以参考我的[《从零实现 KV 存储》](https://w02agegxg3.feishu.cn/docx/Ktp3dBGl9oHdbOxbjUWcGdSnn3g)的教程，从第一行代码开始的视频实战教程，使用 Go 和 Rust 两种语言分别实现。
@@ -69,7 +77,11 @@ CMU 15445 和 15721 课程都讲到了事务的一些基本概念，可以参考
 
 其他的一些部分，例如 parser、执行器、优化器、向量化等等，比较复杂，自己从头搞一个的难度比较大，我觉得可以简单看看资料，了解一下基本概念，工作之中再针对性的查漏补缺。
 
+
+
 当然如果你对某个部分特别感兴趣的话，比如优化器之类的，也可以多去了解然后自己实践，我这里推荐存储和事务的实现，是因为相对来说比较容易上手。
+
+
 
 其他方面的项目实践这里也推荐一些资料：
 
@@ -88,6 +100,8 @@ CMU 15445 和 15721 课程都讲到了事务的一些基本概念，可以参考
 如果对课程内容并不熟悉的话，初次上手做 lab 可能会比较痛苦，并且自己搞也可能会比较浪费时间。
 
 可以看看我的[《从零实现分布式 KV》](https://av6huf2e1k.feishu.cn/docx/JCssdlgF4oRADcxxLqncPpRCn5b)教程，从零开始，基于 6824 的 lab，写一个基于 raft 的分布式 KV，教程内容完全涵盖了 6824 的 lab 部分。
+
+
 
 这个学完了之后，可以挑战下 PingCAP 的 talent plan 中的 TinyKV，它和 6824 的实验部分比较类似，实现一个基于 raft 的分布式 KV 存储系统，难度会比 6824 更大，lab 的代码框架是现成的，只需要往里面添加内容即可，测试也比较完备。
 [https://github.com/talent-plan/tinykv](https://github.com/talent-plan/tinykv)
@@ -110,5 +124,5 @@ CMU 15445 和 15721 课程都讲到了事务的一些基本概念，可以参考
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1673770714528-fc5cd43d-54c6-4c7f-8c8a-b0e8106fdf3e.png#averageHue=%23f7f7f7&clientId=ufa50e856-2120-4&from=paste&height=615&id=uf81c3cca&originHeight=1230&originWidth=1294&originalType=binary&ratio=1&rotation=0&showTitle=false&size=321082&status=done&style=none&taskId=uca8d9770-71df-4791-9af6-a3cdad4d763&title=&width=647)
 还有一些关于数据库方面的优质 PDF 书籍，可以参考学习：
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675175402743-f5987338-d67e-4c0d-a574-9c1a7f743ca0.png#averageHue=%23dbd8cf&clientId=u6861054c-f8dc-4&from=paste&height=451&id=u4b53b520&originHeight=902&originWidth=1682&originalType=binary&ratio=1&rotation=0&showTitle=false&size=897755&status=done&style=none&taskId=u6b44cf46-3c87-4c40-be5f-d7d56162dc1&title=&width=841)
-这份学习资料 PDF 和所有的书籍都可以在我的公众号领取，后台回复关键字**【数据库】**。
+**这份学习资料 PDF 和所有的书籍都可以在我的公众号领取**，后台回复关键字**【数据库】**。
 ![Snipaste_2023-02-01_09-58-05.png](https://cdn.nlark.com/yuque/0/2023/png/12925940/1675216713682-a3cab6f7-93ca-4699-999d-223ba77cbc97.png#averageHue=%23e9e6dc&clientId=u90c0e997-1881-4&from=ui&id=u6f9b9cd5&originHeight=762&originWidth=2800&originalType=binary&ratio=1&rotation=0&showTitle=false&size=260276&status=done&style=none&taskId=u07df7cea-d948-4f48-9257-7cc34779e12&title=)
